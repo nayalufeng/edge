@@ -1608,3 +1608,50 @@ window.addEventListener('load', function(e) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
 })(window, 'equestAnimationFrame');
 </script> 
+<!-- 天气挂件 -->
+<!-- <div id="tp-weather-widget"></div>
+  <script>
+    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    window.SeniverseWeatherWidget('show', {
+      flavor: "bubble",
+      location: "WS0E9D8WN298",
+      geolocation: true,
+      language: "zh-Hans",
+      unit: "c",
+      theme: "auto",
+      token: "5fd5b254-57fe-4f8a-8a13-f92485efeb0b",
+      hover: "enabled",
+      container: "tp-weather-widget"
+    })
+  </script>-->
+  
+<div id="tp-weather-widget"></div>
+  <script>
+    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    window.SeniverseWeatherWidget('show', {
+      flavor: "bubble",
+      location: "WS0E9D8WN298",
+      geolocation: true,
+      language: "zh-Hans",
+      unit: "c",
+      theme: "auto",
+      token: "5fd5b254-57fe-4f8a-8a13-f92485efeb0b",
+      hover: "disabled",
+      container: "tp-weather-widget"
+    })
+  </script>
+   <!-- 页脚 -->
+    <div id="footer">
+        <center>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> 
+
+
+
+<div style="text-align: center;font-weight: bold;color: #1BC3FB;">
+      <span id="subtitle1">没有伞的孩子必须努力奔跑！</span><span class="typed-cursor typed-cursor--blink">|</span>
+      <span id="typed-cursor"></span>
+</div>
+<!-- 打字特效（蓝色字体） -->  
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> 
+<script>var typed = new Typed("#subtitle1", { strings: ["Live a good life, write some good code !!!", "愿自己的努力终将获得回报。", "花开不是为了花落，而是为了开的更加灿烂。", "没有伞的孩子必须努力奔跑！", "欲望以提升热忱，毅力以磨平高山。", "如果放弃太早，你永远都不知道自己会错过什么。", "没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"], startDelay: 1000, typeSpeed: 100, loop: !0, backSpeed: 60, backDelay: 2000, showCursor: !0 })</script>
+        <p>© 2020 naya | 没啥说的</p>
